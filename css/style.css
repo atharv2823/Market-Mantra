@@ -12,3 +12,20 @@
     font-size: 40px;
 
 }
+.nav-item{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-item:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.mode-img{
+    height: 45px;
+    margin-left: 10px;
+}
+.mode-item{
+    position: relative;
+    right: 10px;
+}
