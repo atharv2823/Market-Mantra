@@ -1,0 +1,49 @@
+.que-head{
+    
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(42, 42, 137);
+    
+
+}
+.info-start{
+    
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(42, 42, 137);
+}
+.laptop-img{
+   position: absolute;
+   right: 10px;
+}
+.site-info{
+    width: 600px;
+    text-wrap: wrap;
+    font-size: 16px;
+}
+.info-list{
+    width: 600px;
+    text-wrap: wrap;
+    font-size: 16px;
+}
+.global-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(42, 42, 137);
+    text-decoration: underline;
+}
+.market-banner{
+    position: absolute;
+    left: 20px;
+}
+.other-info{
+    width: 700px; 
+    position: absolute;
+    right: 10px;
+}
+.index-heading{
+    display: flex;
+}
