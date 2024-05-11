@@ -35,15 +35,23 @@
     color: rgb(42, 42, 137);
     text-decoration: underline;
 }
-.market-banner{
-    position: absolute;
-    left: 20px;
-}
+/* .market-banner{
+   
+} */
 .other-info{
-    width: 700px; 
+    width: 650px; 
     position: absolute;
     right: 10px;
+   
 }
 .index-heading{
     display: flex;
+}
+.market-banner{
+    display: flex;
+}
+.global-container{
+    display: flex;
+    flex-direction: row;
+
 }
