@@ -46,7 +46,7 @@ body{
     width: 420px;
     background-color: transparent;
     border: 1px solid white;
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(10px);
     color: white;
     border-radius: 10px;
     padding: 30px 40px ;

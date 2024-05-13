@@ -55,3 +55,84 @@
     flex-direction: row;
 
 }
+
+
+
+
+
+footer {
+    color: rgb(42, 42, 137);
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.footer-section {
+    flex-basis: 5%;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(42, 42, 137);
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+span{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Additional styling to match main page */
+
+.que-head,
+.info-start,
+.global-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(42, 42, 137);
+}
+
+.site-info,
+.info-list,
+.other-info {
+    width: 600px;
+    font-size: 16px;
+    color: rgb(42, 42, 137);
+}
+
+.laptop-img,
+.other-info {
+    position: absolute;
+    right: 10px;
+}
+
+.index-heading,
+.market-banner,
+.global-container {
+    display: flex;
+}
+
