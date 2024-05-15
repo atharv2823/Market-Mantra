@@ -25,8 +25,22 @@
 .mode-img{
     height: 45px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .mode-item{
     position: relative;
     right: 10px;
+}
+.active1{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.dark-theme{
+    background-color: black;
+    color: white;
+}
+.light-theme{
+    background-color: white;
+    color: black;
 }
