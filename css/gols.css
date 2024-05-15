@@ -1,0 +1,42 @@
+.main-heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list-container {
+    padding: 10px ;
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: rgb(42, 42, 137);
+    border-radius: 10px ;
+    overflow: scroll;
+}
+
+.todo-input {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+}
+
+.todoItem {
+    background-color: #65a949;
+    border-radius: 20px;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+
+    margin: 20px auto;
+    width: 80%;
+}
+
+.todo-add {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    display: block;
+    margin: 10px auto;
+}

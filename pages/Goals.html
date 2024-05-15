@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wish List</title>
+    <title>googleapis</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jaini&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="stylesheet" href="./../css/wishlist.css">
+    <link rel="stylesheet" href="./../css/gols.css">
     <link rel="stylesheet" href="./../css/footer.css">
 </head>
+<body>
+      <!-- navbar Start  -->
 
-<body id="body">
-    <!-- navbar Start  -->
-
-    <nav class="navbar navbar-expand-lg  " style="background-color: #e3f2fd;">
+      <nav class="navbar navbar-expand-lg  " style="background-color: #e3f2fd;">
         <div class="container-fluid">
             <a class="navbar-brand heading" href="index.html"><img src="./../images/Main logo.png" alt="main logo"
                     class="main-logo">Market मंत्र</a>
@@ -49,13 +47,16 @@
                             <li><a class="dropdown-item" href="#">Forex Program</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-item" href="./../pages/loginpage.html" target="_blank">Log In</a>
-                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link nav-item" href="./../pages/Goals.html" target="_blank">Goals</a>
                     </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link nav-item" href="./../pages/loginpage.html" target="_blank">Log In</a>
+                    </li>
+
+                    
 
                 </ul>
                 <div class="mode-item">
@@ -74,37 +75,19 @@
     </nav>
     <!-- navbar End -->
 
-    <!-- body start -->
-    <h3 class="text-center  mt-3 wishlist-heading">Your Wish List</h3>
-    <!-- cards  start-->
-    <div class="wishlist-container ms-3 mb-3 mt-3">
-        <h2 class="wishlist-title">Nifty 50</h2> 
-        <p>The Nifty 50 is a benchmark stock market index for the National Stock Exchange of India (NSE). It consists of the top 50 actively traded Indian stocks from various sectors like banking, IT, energy, pharmaceuticals, etc.</p>
-        <a href=" https://in.tradingview.com/chart/?symbol=NSE%3ANIFTY " target="_blank" class="view-chart"><button class="btn-view">View Chart 📊</button></a>
+    <h1 class="main-heading">Goals Wants To Achive</h1>
+    <div class="list-container" id="list-container">
+
     </div>
-
-    <div class="wishlist-container ms-3 mb-3 mt-3">
-        <h2 class="wishlist-title">Bank Nifty</h2> 
-        <p>Bank Nifty is an index that represents the 12 most liquid and large capitalized Indian banking stocks. It serves as a benchmark for the banking sector's performance in the Indian stock market. Bank Nifty provides investors and traders with an indication of the overall health and direction of the banking industry. </p>
-        <a href=" https://in.tradingview.com/chart/?symbol=NSE%3ANIFTY " target="_blank" class="view-chart"><button class="btn-view">View Chart 📊</button></a>
+    <div class="action-container">
+        <input type="text" id="todo-element" class="todo-input" >
+        <button class="todo-add" onclick="add()">Add</button>
+        <button class="todo-add" onclick="clear()">Clear</button>
     </div>
-
-    <div class="wishlist-container ms-3 mb-3 mt-3">
-        <h2 class="wishlist-title">Senxes</h2> 
-        <p>The S&P BSE Sensex, commonly referred to as the Sensex, is the benchmark stock index of the Bombay Stock Exchange (BSE) in India. It represents the performance of the top 30 companies listed on the BSE based on market capitalization and is widely followed as a barometer of the Indian stock market. </p>
-        <a href=" https://in.tradingview.com/chart/?symbol=NSE%3ANIFTY " target="_blank" class="view-chart"><button class="btn-view">View Chart 📊</button></a>
-    </div>
+      
 
 
-    <div class="wishlist-container ms-3 mb-3 mt-3">
-        <h2 class="wishlist-title">Nifty FIN</h2> 
-        <p>The Nifty Financial Services Index (Nifty FIN) is a sectoral index of the National Stock Exchange of India (NSE). It comprises companies from the financial services sector, including banks, non-banking financial companies (NBFCs), insurance companies, and other financial institutions.</p>
-        <a href=" https://in.tradingview.com/chart/?symbol=NSE%3ANIFTY " target="_blank" class="view-chart"><button class="btn-view">View Chart 📊</button></a>
-    </div>
 
-   
-
-   
     <footer>
     
         <section class="footer">
@@ -139,10 +122,6 @@
                     <ul class="links">
                         <li><a href="#">Contact US</a></li>
                         <li><a href="#">Privacy Policy</a></li>
-                        <!-- <li><a href="#">GDPR</a></li>
-                        <li><a href="#">Security</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Media Kit</a></li> -->
                     </ul>
                 </div>
 
@@ -167,8 +146,8 @@
         </section>
 
     </footer>
-    <script src="./../javascript/dark-light.js"></script>
-
+    <script src="./javascript/dark-light.js"></script>
+    <script src="./../javascript/todo.js"></script>
+    
 </body>
-
 </html>
