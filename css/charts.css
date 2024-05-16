@@ -1,0 +1,25 @@
+.sr-number{
+    background-color: #b72122;
+    border: 1px solid #b72122;
+    border-radius: 4px;
+    color: #fff;
+    content: attr(data-number);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: center;
+    width: 30px;
+}
+.charts-info{
+    width: 90%;
+    font-size: 25px;
+}
+.chart-image{
+    width: 60%;
+    display: block;
+    margin: 10px auto;
+   
+}

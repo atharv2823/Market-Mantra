@@ -31,9 +31,10 @@ function clear() {
     const inputElement = document.getElementById('todo-element');
     todoList.push(inputElement.value);
 
-    // localStorage.setItem("todoList", JSON.stringify(todoList));
+    localStorage.setItem("todoList", JSON.stringify(todoList));
 
-    inputElement.value = "";
-
+    // inputElement.value = "";
+     
+    localStorage.value = "";
 
 }

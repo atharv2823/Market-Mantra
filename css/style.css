@@ -10,6 +10,15 @@
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
+    
+
+}
+.mantra{
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(42, 42, 137);
 
 }
 .nav-item{
