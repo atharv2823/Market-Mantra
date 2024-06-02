@@ -19,6 +19,8 @@
 .laptop-img{
    position: absolute;
    right: 10px;
+   /* border: 2px solid black; */
+   width: 50%;
 }
 .site-info{
     width: 600px;
@@ -53,23 +55,28 @@
 
 }
 .laptop-container{
-    width: 45%;
+    width: 50%;
+   
+    
 }
 .info-container{
-    width: 45%;
+    width: 50%;
+    /* border: 2px solid black; */
 }
 
 /* media Queury */
-@media (min-width: 600px) and (max-width: 768px){ 
+@media (min-width: 425px) and (max-width: 650px){ 
     .laptop-img{
         height: 300px;
-       display: block;
-       background-color: red;
+        display: block;
+      
+    }
+    .laptop-container{
+        display: flex;
+        flex-wrap: nowrap;
     }
     .mainpage-container{
-       display: flex;
-       flex-direction: column;
-       background-color: orange;
+      display: block;
       
     }
 
