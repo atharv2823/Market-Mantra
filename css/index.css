@@ -52,13 +52,32 @@
     flex-direction: row;
 
 }
+.laptop-container{
+    width: 45%;
+}
+.info-container{
+    width: 45%;
+}
 
 /* media Queury */
-@media screen and (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 768px){ 
     .laptop-img{
-        height: 350px;
-        position: absolute;
-        top: auto;
+        height: 300px;
+       display: block;
+       background-color: red;
+    }
+    .mainpage-container{
+       display: flex;
+       flex-direction: column;
+       background-color: orange;
+      
+    }
+
+    .global-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: green;
     }
 
 }
@@ -108,6 +127,12 @@ footer {
 span{
     width: 30px;
     height: 30px;
+}
+
+@media (min-width: 600px) and (max-width: 768px){ 
+    .footer-start {
+        display: block;
+    }
 }
 
 
